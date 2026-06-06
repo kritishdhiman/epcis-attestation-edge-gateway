@@ -1,0 +1,2802 @@
+[
+  {
+    "eventID": "EVT-001",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T06:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.9279"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:shipping",
+    "bizLocation": "urn:epc:id:sgln:0614141.00729.0",
+    "readPoint": "urn:epc:id:sgln:0614141.00729.0",
+    "sensorData": {
+      "temperature": 5.37,
+      "humidity": 54.32,
+      "gps": {
+        "lat": 30.68628,
+        "lng": 76.751264
+      },
+      "doorOpen": true,
+      "vibration": 0.019
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Chandigarh"
+    }
+  },
+  {
+    "eventID": "EVT-002",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T06:15:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.1106"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:transporting",
+    "bizLocation": "urn:epc:id:sgln:0614141.00729.0",
+    "readPoint": "urn:epc:id:sgln:0614141.00729.0",
+    "sensorData": {
+      "temperature": 4.04,
+      "humidity": 43.11,
+      "gps": {
+        "lat": 30.742227,
+        "lng": 76.810343
+      },
+      "doorOpen": false,
+      "vibration": 0.014
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Chandigarh"
+    }
+  },
+  {
+    "eventID": "EVT-003",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T06:30:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.6635"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:storing",
+    "bizLocation": "urn:epc:id:sgln:0614141.00729.0",
+    "readPoint": "urn:epc:id:sgln:0614141.00729.0",
+    "sensorData": {
+      "temperature": 6.84,
+      "humidity": 54.59,
+      "gps": {
+        "lat": 30.721293,
+        "lng": 76.765298
+      },
+      "doorOpen": false,
+      "vibration": 0.049
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Chandigarh"
+    }
+  },
+  {
+    "eventID": "EVT-004",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T06:45:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.6925"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:receiving",
+    "bizLocation": "urn:epc:id:sgln:0614141.00729.0",
+    "readPoint": "urn:epc:id:sgln:0614141.00729.0",
+    "sensorData": {
+      "temperature": 33.55,
+      "humidity": 40.92,
+      "gps": {
+        "lat": 30.721153,
+        "lng": 76.784604
+      },
+      "doorOpen": false,
+      "vibration": 0.041
+    },
+    "_meta": {
+      "is_anomaly": true,
+      "anomaly_type": "temperature_spike",
+      "city": "Chandigarh"
+    }
+  },
+  {
+    "eventID": "EVT-005",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T07:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.8428"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:storing",
+    "bizLocation": "urn:epc:id:sgln:0614141.00729.0",
+    "readPoint": "urn:epc:id:sgln:0614141.00729.0",
+    "sensorData": {
+      "temperature": 31.09,
+      "humidity": 47.11,
+      "gps": {
+        "lat": 30.769948,
+        "lng": 76.767413
+      },
+      "doorOpen": false,
+      "vibration": 0.038
+    },
+    "_meta": {
+      "is_anomaly": true,
+      "anomaly_type": "temperature_spike",
+      "city": "Chandigarh"
+    }
+  },
+  {
+    "eventID": "EVT-006",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T07:15:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.3677"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:transporting",
+    "bizLocation": "urn:epc:id:sgln:0614141.00729.0",
+    "readPoint": "urn:epc:id:sgln:0614141.00729.0",
+    "sensorData": {
+      "temperature": 3.62,
+      "humidity": 58.51,
+      "gps": {
+        "lat": 30.700414,
+        "lng": 76.802313
+      },
+      "doorOpen": false,
+      "vibration": 0.037
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Chandigarh"
+    }
+  },
+  {
+    "eventID": "EVT-007",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T07:30:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.4752"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:storing",
+    "bizLocation": "urn:epc:id:sgln:0614141.00729.0",
+    "readPoint": "urn:epc:id:sgln:0614141.00729.0",
+    "sensorData": {
+      "temperature": 4.41,
+      "humidity": 41.32,
+      "gps": {
+        "lat": 30.767585,
+        "lng": 76.807
+      },
+      "doorOpen": false,
+      "vibration": 0.019
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Chandigarh"
+    }
+  },
+  {
+    "eventID": "EVT-008",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T07:45:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.8517"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:storing",
+    "bizLocation": "urn:epc:id:sgln:0614141.00729.0",
+    "readPoint": "urn:epc:id:sgln:0614141.00729.0",
+    "sensorData": {
+      "temperature": 2.84,
+      "humidity": 54.9,
+      "gps": {
+        "lat": 30.733223,
+        "lng": 76.817868
+      },
+      "doorOpen": false,
+      "vibration": 0.04
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Chandigarh"
+    }
+  },
+  {
+    "eventID": "EVT-009",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T08:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.6930"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:receiving",
+    "bizLocation": "urn:epc:id:sgln:0614141.00729.0",
+    "readPoint": "urn:epc:id:sgln:0614141.00729.0",
+    "sensorData": {
+      "temperature": 5.06,
+      "humidity": 41.82,
+      "gps": {
+        "lat": 30.726143,
+        "lng": 76.787753
+      },
+      "doorOpen": false,
+      "vibration": 0.044
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Chandigarh"
+    }
+  },
+  {
+    "eventID": "EVT-010",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T08:15:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.7916"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:shipping",
+    "bizLocation": "urn:epc:id:sgln:0614141.00729.0",
+    "readPoint": "urn:epc:id:sgln:0614141.00729.0",
+    "sensorData": {
+      "temperature": 4.31,
+      "humidity": 51.92,
+      "gps": {
+        "lat": 30.698584,
+        "lng": 76.745398
+      },
+      "doorOpen": true,
+      "vibration": 0.031
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Chandigarh"
+    }
+  },
+  {
+    "eventID": "EVT-011",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T08:30:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.1188"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:shipping",
+    "bizLocation": "urn:epc:id:sgln:0614141.00729.0",
+    "readPoint": "urn:epc:id:sgln:0614141.00729.0",
+    "sensorData": {
+      "temperature": 6.09,
+      "humidity": 50.74,
+      "gps": {
+        "lat": 30.780408,
+        "lng": 76.815478
+      },
+      "doorOpen": false,
+      "vibration": 0.041
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Chandigarh"
+    }
+  },
+  {
+    "eventID": "EVT-012",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T08:45:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.3591"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:shipping",
+    "bizLocation": "urn:epc:id:sgln:0614141.00729.0",
+    "readPoint": "urn:epc:id:sgln:0614141.00729.0",
+    "sensorData": {
+      "temperature": 7.72,
+      "humidity": 57.52,
+      "gps": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "doorOpen": false,
+      "vibration": 0.049
+    },
+    "_meta": {
+      "is_anomaly": true,
+      "anomaly_type": "location_jump",
+      "city": "Chandigarh"
+    }
+  },
+  {
+    "eventID": "EVT-013",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T09:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.5889"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:loading",
+    "bizLocation": "urn:epc:id:sgln:0614141.00729.0",
+    "readPoint": "urn:epc:id:sgln:0614141.00729.0",
+    "sensorData": {
+      "temperature": 5.65,
+      "humidity": 43.06,
+      "gps": {
+        "lat": 30.734068,
+        "lng": 76.740041
+      },
+      "doorOpen": false,
+      "vibration": 0.032
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Chandigarh"
+    }
+  },
+  {
+    "eventID": "EVT-014",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-03T13:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.1009"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:storing",
+    "bizLocation": "urn:epc:id:sgln:0614141.00729.0",
+    "readPoint": "urn:epc:id:sgln:0614141.00729.0",
+    "sensorData": {
+      "temperature": 4.93,
+      "humidity": 42.24,
+      "gps": {
+        "lat": 30.761163,
+        "lng": 76.782435
+      },
+      "doorOpen": false,
+      "vibration": 0.045
+    },
+    "_meta": {
+      "is_anomaly": true,
+      "anomaly_type": "timestamp_tamper",
+      "city": "Chandigarh"
+    }
+  },
+  {
+    "eventID": "EVT-015",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T09:30:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.2290"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:transporting",
+    "bizLocation": "urn:epc:id:sgln:UNKNOWN.99999.0",
+    "readPoint": "urn:epc:id:sgln:UNKNOWN.99999.0",
+    "sensorData": {
+      "temperature": 6.9,
+      "humidity": 59.56,
+      "gps": {
+        "lat": 30.689093,
+        "lng": 76.817201
+      },
+      "doorOpen": false,
+      "vibration": 0.015
+    },
+    "_meta": {
+      "is_anomaly": true,
+      "anomaly_type": "fake_partner",
+      "city": "Chandigarh"
+    }
+  },
+  {
+    "eventID": "EVT-016",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T09:45:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.9645"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:transporting",
+    "bizLocation": "urn:epc:id:sgln:0614141.00729.0",
+    "readPoint": "urn:epc:id:sgln:0614141.00729.0",
+    "sensorData": {
+      "temperature": 7.79,
+      "humidity": 58.58,
+      "gps": {
+        "lat": 30.777985,
+        "lng": 76.745913
+      },
+      "doorOpen": false,
+      "vibration": 0.039
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Chandigarh"
+    }
+  },
+  {
+    "eventID": "EVT-017",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T10:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.7118"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:loading",
+    "bizLocation": "urn:epc:id:sgln:0614141.00729.0",
+    "readPoint": "urn:epc:id:sgln:0614141.00729.0",
+    "sensorData": {
+      "temperature": 4.71,
+      "humidity": 44.96,
+      "gps": {
+        "lat": 30.723199,
+        "lng": 76.796569
+      },
+      "doorOpen": false,
+      "vibration": 0.024
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Chandigarh"
+    }
+  },
+  {
+    "eventID": "EVT-018",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T00:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.4608"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:shipping",
+    "bizLocation": "urn:epc:id:sgln:0614141.00729.0",
+    "readPoint": "urn:epc:id:sgln:0614141.00729.0",
+    "sensorData": {
+      "temperature": 6.25,
+      "humidity": 41.18,
+      "gps": {
+        "lat": 30.742131,
+        "lng": 76.752411
+      },
+      "doorOpen": false,
+      "vibration": 0.046
+    },
+    "_meta": {
+      "is_anomaly": true,
+      "anomaly_type": "timestamp_tamper",
+      "city": "Chandigarh"
+    }
+  },
+  {
+    "eventID": "EVT-019",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T10:30:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.8953"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:loading",
+    "bizLocation": "urn:epc:id:sgln:0614141.00729.0",
+    "readPoint": "urn:epc:id:sgln:0614141.00729.0",
+    "sensorData": {
+      "temperature": 2.79,
+      "humidity": 58.71,
+      "gps": {
+        "lat": 30.734716,
+        "lng": 76.757248
+      },
+      "doorOpen": true,
+      "vibration": 0.02
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Chandigarh"
+    }
+  },
+  {
+    "eventID": "EVT-020",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T10:45:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.2545"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:transporting",
+    "bizLocation": "urn:epc:id:sgln:0614141.00729.0",
+    "readPoint": "urn:epc:id:sgln:0614141.00729.0",
+    "sensorData": {
+      "temperature": 4.13,
+      "humidity": 48.22,
+      "gps": {
+        "lat": 30.730597,
+        "lng": 76.770106
+      },
+      "doorOpen": false,
+      "vibration": 0.037
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Chandigarh"
+    }
+  },
+  {
+    "eventID": "EVT-021",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T11:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.7596"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:storing",
+    "bizLocation": "urn:epc:id:sgln:0614142.00100.0",
+    "readPoint": "urn:epc:id:sgln:0614142.00100.0",
+    "sensorData": {
+      "temperature": 6.8,
+      "humidity": 42.19,
+      "gps": {
+        "lat": 30.426617,
+        "lng": 76.736542
+      },
+      "doorOpen": false,
+      "vibration": 0.018
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Ambala"
+    }
+  },
+  {
+    "eventID": "EVT-022",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T11:15:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.5563"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:receiving",
+    "bizLocation": "urn:epc:id:sgln:0614142.00100.0",
+    "readPoint": "urn:epc:id:sgln:0614142.00100.0",
+    "sensorData": {
+      "temperature": 7.25,
+      "humidity": 41.51,
+      "gps": {
+        "lat": 30.373061,
+        "lng": 76.768888
+      },
+      "doorOpen": false,
+      "vibration": 0.012
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Ambala"
+    }
+  },
+  {
+    "eventID": "EVT-023",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T11:30:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.2528"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:receiving",
+    "bizLocation": "urn:epc:id:sgln:0614142.00100.0",
+    "readPoint": "urn:epc:id:sgln:0614142.00100.0",
+    "sensorData": {
+      "temperature": 4.44,
+      "humidity": 49.63,
+      "gps": {
+        "lat": 30.428128,
+        "lng": 76.810303
+      },
+      "doorOpen": true,
+      "vibration": 0.046
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Ambala"
+    }
+  },
+  {
+    "eventID": "EVT-024",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T11:45:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.7396"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:transporting",
+    "bizLocation": "urn:epc:id:sgln:0614142.00100.0",
+    "readPoint": "urn:epc:id:sgln:0614142.00100.0",
+    "sensorData": {
+      "temperature": 3.71,
+      "humidity": 53.93,
+      "gps": {
+        "lat": 30.344664,
+        "lng": 76.726916
+      },
+      "doorOpen": true,
+      "vibration": 0.016
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Ambala"
+    }
+  },
+  {
+    "eventID": "EVT-025",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T12:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.9883"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:storing",
+    "bizLocation": "urn:epc:id:sgln:0614142.00100.0",
+    "readPoint": "urn:epc:id:sgln:0614142.00100.0",
+    "sensorData": {
+      "temperature": 2.34,
+      "humidity": 51.68,
+      "gps": {
+        "lat": 30.357871,
+        "lng": 76.823571
+      },
+      "doorOpen": false,
+      "vibration": 0.012
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Ambala"
+    }
+  },
+  {
+    "eventID": "EVT-026",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T12:15:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.2122"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:shipping",
+    "bizLocation": "urn:epc:id:sgln:0614142.00100.0",
+    "readPoint": "urn:epc:id:sgln:0614142.00100.0",
+    "sensorData": {
+      "temperature": 6.05,
+      "humidity": 44.7,
+      "gps": {
+        "lat": 30.378983,
+        "lng": 76.811834
+      },
+      "doorOpen": false,
+      "vibration": 0.048
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Ambala"
+    }
+  },
+  {
+    "eventID": "EVT-027",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T12:30:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.1651"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:shipping",
+    "bizLocation": "urn:epc:id:sgln:0614142.00100.0",
+    "readPoint": "urn:epc:id:sgln:0614142.00100.0",
+    "sensorData": {
+      "temperature": 4.52,
+      "humidity": 51.67,
+      "gps": {
+        "lat": 30.385168,
+        "lng": 76.784592
+      },
+      "doorOpen": false,
+      "vibration": 0.047
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Ambala"
+    }
+  },
+  {
+    "eventID": "EVT-028",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T12:45:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.4910"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:transporting",
+    "bizLocation": "urn:epc:id:sgln:0614142.00100.0",
+    "readPoint": "urn:epc:id:sgln:0614142.00100.0",
+    "sensorData": {
+      "temperature": 2.79,
+      "humidity": 52.91,
+      "gps": {
+        "lat": 30.348626,
+        "lng": 76.798319
+      },
+      "doorOpen": true,
+      "vibration": 0.023
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Ambala"
+    }
+  },
+  {
+    "eventID": "EVT-029",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T13:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.8508"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:loading",
+    "bizLocation": "urn:epc:id:sgln:0614142.00100.0",
+    "readPoint": "urn:epc:id:sgln:0614142.00100.0",
+    "sensorData": {
+      "temperature": 7.98,
+      "humidity": 41.47,
+      "gps": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "doorOpen": false,
+      "vibration": 0.03
+    },
+    "_meta": {
+      "is_anomaly": true,
+      "anomaly_type": "location_jump",
+      "city": "Ambala"
+    }
+  },
+  {
+    "eventID": "EVT-030",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T13:15:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.5002"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:storing",
+    "bizLocation": "urn:epc:id:sgln:0614142.00100.0",
+    "readPoint": "urn:epc:id:sgln:0614142.00100.0",
+    "sensorData": {
+      "temperature": 2.95,
+      "humidity": 56.67,
+      "gps": {
+        "lat": 30.421526,
+        "lng": 76.814786
+      },
+      "doorOpen": false,
+      "vibration": 0.034
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Ambala"
+    }
+  },
+  {
+    "eventID": "EVT-031",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T13:30:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.1128"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:loading",
+    "bizLocation": "urn:epc:id:sgln:0614142.00100.0",
+    "readPoint": "urn:epc:id:sgln:0614142.00100.0",
+    "sensorData": {
+      "temperature": 3.8,
+      "humidity": 53.27,
+      "gps": {
+        "lat": 30.426923,
+        "lng": 76.792098
+      },
+      "doorOpen": false,
+      "vibration": 0.021
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Ambala"
+    }
+  },
+  {
+    "eventID": "EVT-032",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-02T20:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.3546"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:storing",
+    "bizLocation": "urn:epc:id:sgln:0614142.00100.0",
+    "readPoint": "urn:epc:id:sgln:0614142.00100.0",
+    "sensorData": {
+      "temperature": 5.63,
+      "humidity": 54.35,
+      "gps": {
+        "lat": 30.417171,
+        "lng": 76.800942
+      },
+      "doorOpen": false,
+      "vibration": 0.037
+    },
+    "_meta": {
+      "is_anomaly": true,
+      "anomaly_type": "timestamp_tamper",
+      "city": "Ambala"
+    }
+  },
+  {
+    "eventID": "EVT-033",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T14:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.1832"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:transporting",
+    "bizLocation": "urn:epc:id:sgln:0614142.00100.0",
+    "readPoint": "urn:epc:id:sgln:0614142.00100.0",
+    "sensorData": {
+      "temperature": 6.98,
+      "humidity": 40.88,
+      "gps": {
+        "lat": 30.377053,
+        "lng": 76.817234
+      },
+      "doorOpen": false,
+      "vibration": 0.041
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Ambala"
+    }
+  },
+  {
+    "eventID": "EVT-034",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T14:15:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.8239"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:transporting",
+    "bizLocation": "urn:epc:id:sgln:0614142.00100.0",
+    "readPoint": "urn:epc:id:sgln:0614142.00100.0",
+    "sensorData": {
+      "temperature": 5.37,
+      "humidity": 42.24,
+      "gps": {
+        "lat": 30.391911,
+        "lng": 76.752896
+      },
+      "doorOpen": false,
+      "vibration": 0.032
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Ambala"
+    }
+  },
+  {
+    "eventID": "EVT-035",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T14:30:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.3426"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:receiving",
+    "bizLocation": "urn:epc:id:sgln:0614142.00100.0",
+    "readPoint": "urn:epc:id:sgln:0614142.00100.0",
+    "sensorData": {
+      "temperature": 2.25,
+      "humidity": 47.29,
+      "gps": {
+        "lat": 30.41166,
+        "lng": 76.784951
+      },
+      "doorOpen": false,
+      "vibration": 0.046
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Ambala"
+    }
+  },
+  {
+    "eventID": "EVT-036",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T14:45:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.2684"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:loading",
+    "bizLocation": "urn:epc:id:sgln:0614142.00100.0",
+    "readPoint": "urn:epc:id:sgln:0614142.00100.0",
+    "sensorData": {
+      "temperature": 7.3,
+      "humidity": 48.13,
+      "gps": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "doorOpen": false,
+      "vibration": 0.047
+    },
+    "_meta": {
+      "is_anomaly": true,
+      "anomaly_type": "location_jump",
+      "city": "Ambala"
+    }
+  },
+  {
+    "eventID": "EVT-037",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T15:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.3900"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:shipping",
+    "bizLocation": "urn:epc:id:sgln:0614142.00100.0",
+    "readPoint": "urn:epc:id:sgln:0614142.00100.0",
+    "sensorData": {
+      "temperature": 3.08,
+      "humidity": 58.49,
+      "gps": {
+        "lat": 30.414661,
+        "lng": 76.824321
+      },
+      "doorOpen": true,
+      "vibration": 0.042
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Ambala"
+    }
+  },
+  {
+    "eventID": "EVT-038",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T15:15:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.5371"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:shipping",
+    "bizLocation": "urn:epc:id:sgln:0614142.00100.0",
+    "readPoint": "urn:epc:id:sgln:0614142.00100.0",
+    "sensorData": {
+      "temperature": 4.3,
+      "humidity": 40.77,
+      "gps": {
+        "lat": 30.414606,
+        "lng": 76.807775
+      },
+      "doorOpen": true,
+      "vibration": 0.019
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Ambala"
+    }
+  },
+  {
+    "eventID": "EVT-039",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T15:30:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.6000"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:receiving",
+    "bizLocation": "urn:epc:id:sgln:0614142.00100.0",
+    "readPoint": "urn:epc:id:sgln:0614142.00100.0",
+    "sensorData": {
+      "temperature": 2.14,
+      "humidity": 43.86,
+      "gps": {
+        "lat": 30.409859,
+        "lng": 76.77273
+      },
+      "doorOpen": false,
+      "vibration": 0.021
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Ambala"
+    }
+  },
+  {
+    "eventID": "EVT-040",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T15:45:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.6753"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:loading",
+    "bizLocation": "urn:epc:id:sgln:0614142.00100.0",
+    "readPoint": "urn:epc:id:sgln:0614142.00100.0",
+    "sensorData": {
+      "temperature": 4.4,
+      "humidity": 59.62,
+      "gps": {
+        "lat": 30.335142,
+        "lng": 76.804033
+      },
+      "doorOpen": false,
+      "vibration": 0.048
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Ambala"
+    }
+  },
+  {
+    "eventID": "EVT-041",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T16:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.3925"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:storing",
+    "bizLocation": "urn:epc:id:sgln:0614143.00500.0",
+    "readPoint": "urn:epc:id:sgln:0614143.00500.0",
+    "sensorData": {
+      "temperature": 2.23,
+      "humidity": 51.93,
+      "gps": {
+        "lat": 28.575434,
+        "lng": 77.25604
+      },
+      "doorOpen": false,
+      "vibration": 0.039
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Delhi"
+    }
+  },
+  {
+    "eventID": "EVT-042",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T16:15:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.9379"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:transporting",
+    "bizLocation": "urn:epc:id:sgln:0614143.00500.0",
+    "readPoint": "urn:epc:id:sgln:0614143.00500.0",
+    "sensorData": {
+      "temperature": 7.4,
+      "humidity": 43.8,
+      "gps": {
+        "lat": 28.595268,
+        "lng": 77.219621
+      },
+      "doorOpen": false,
+      "vibration": 0.038
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Delhi"
+    }
+  },
+  {
+    "eventID": "EVT-043",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T16:30:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.9821"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:receiving",
+    "bizLocation": "urn:epc:id:sgln:0614143.00500.0",
+    "readPoint": "urn:epc:id:sgln:0614143.00500.0",
+    "sensorData": {
+      "temperature": 4.19,
+      "humidity": 41.4,
+      "gps": {
+        "lat": 28.564069,
+        "lng": 77.251558
+      },
+      "doorOpen": false,
+      "vibration": 0.035
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Delhi"
+    }
+  },
+  {
+    "eventID": "EVT-044",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T16:45:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.5920"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:storing",
+    "bizLocation": "urn:epc:id:sgln:0614143.00500.0",
+    "readPoint": "urn:epc:id:sgln:0614143.00500.0",
+    "sensorData": {
+      "temperature": 6.0,
+      "humidity": 46.52,
+      "gps": {
+        "lat": 28.630239,
+        "lng": 77.171463
+      },
+      "doorOpen": false,
+      "vibration": 0.032
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Delhi"
+    }
+  },
+  {
+    "eventID": "EVT-045",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T17:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.7211"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:receiving",
+    "bizLocation": "urn:epc:id:sgln:0614143.00500.0",
+    "readPoint": "urn:epc:id:sgln:0614143.00500.0",
+    "sensorData": {
+      "temperature": 5.69,
+      "humidity": 46.02,
+      "gps": {
+        "lat": 28.583084,
+        "lng": 77.225493
+      },
+      "doorOpen": false,
+      "vibration": 0.022
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Delhi"
+    }
+  },
+  {
+    "eventID": "EVT-046",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T17:15:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.6279"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:transporting",
+    "bizLocation": "urn:epc:id:sgln:0614143.00500.0",
+    "readPoint": "urn:epc:id:sgln:0614143.00500.0",
+    "sensorData": {
+      "temperature": 4.65,
+      "humidity": 44.27,
+      "gps": {
+        "lat": 28.584918,
+        "lng": 77.237576
+      },
+      "doorOpen": true,
+      "vibration": 0.042
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Delhi"
+    }
+  },
+  {
+    "eventID": "EVT-047",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T17:30:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.2389"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:loading",
+    "bizLocation": "urn:epc:id:sgln:0614143.00500.0",
+    "readPoint": "urn:epc:id:sgln:0614143.00500.0",
+    "sensorData": {
+      "temperature": 5.98,
+      "humidity": 52.39,
+      "gps": {
+        "lat": 28.659883,
+        "lng": 77.232596
+      },
+      "doorOpen": false,
+      "vibration": 0.043
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Delhi"
+    }
+  },
+  {
+    "eventID": "EVT-048",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T17:45:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.4680"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:receiving",
+    "bizLocation": "urn:epc:id:sgln:0614143.00500.0",
+    "readPoint": "urn:epc:id:sgln:0614143.00500.0",
+    "sensorData": {
+      "temperature": 2.15,
+      "humidity": 44.9,
+      "gps": {
+        "lat": 28.639014,
+        "lng": 77.22628
+      },
+      "doorOpen": true,
+      "vibration": 0.034
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Delhi"
+    }
+  },
+  {
+    "eventID": "EVT-049",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T18:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.4185"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:transporting",
+    "bizLocation": "urn:epc:id:sgln:0614143.00500.0",
+    "readPoint": "urn:epc:id:sgln:0614143.00500.0",
+    "sensorData": {
+      "temperature": 4.97,
+      "humidity": 44.88,
+      "gps": {
+        "lat": 28.640749,
+        "lng": 77.204542
+      },
+      "doorOpen": false,
+      "vibration": 0.046
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Delhi"
+    }
+  },
+  {
+    "eventID": "EVT-050",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T18:15:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.7965"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:receiving",
+    "bizLocation": "urn:epc:id:sgln:0614143.00500.0",
+    "readPoint": "urn:epc:id:sgln:0614143.00500.0",
+    "sensorData": {
+      "temperature": 6.82,
+      "humidity": 53.92,
+      "gps": {
+        "lat": 28.649944,
+        "lng": 77.247547
+      },
+      "doorOpen": true,
+      "vibration": 0.012
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Delhi"
+    }
+  },
+  {
+    "eventID": "EVT-051",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T18:30:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.8478"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:transporting",
+    "bizLocation": "urn:epc:id:sgln:0614143.00500.0",
+    "readPoint": "urn:epc:id:sgln:0614143.00500.0",
+    "sensorData": {
+      "temperature": 6.01,
+      "humidity": 59.76,
+      "gps": {
+        "lat": 28.58882,
+        "lng": 77.243834
+      },
+      "doorOpen": false,
+      "vibration": 0.048
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Delhi"
+    }
+  },
+  {
+    "eventID": "EVT-052",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T18:45:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.9270"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:loading",
+    "bizLocation": "urn:epc:id:sgln:0614143.00500.0",
+    "readPoint": "urn:epc:id:sgln:0614143.00500.0",
+    "sensorData": {
+      "temperature": 4.68,
+      "humidity": 43.18,
+      "gps": {
+        "lat": 28.653043,
+        "lng": 77.220265
+      },
+      "doorOpen": true,
+      "vibration": 0.028
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Delhi"
+    }
+  },
+  {
+    "eventID": "EVT-053",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T19:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.5543"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:transporting",
+    "bizLocation": "urn:epc:id:sgln:0614143.00500.0",
+    "readPoint": "urn:epc:id:sgln:0614143.00500.0",
+    "sensorData": {
+      "temperature": 5.76,
+      "humidity": 45.49,
+      "gps": {
+        "lat": 28.639078,
+        "lng": 77.242986
+      },
+      "doorOpen": false,
+      "vibration": 0.039
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Delhi"
+    }
+  },
+  {
+    "eventID": "EVT-054",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T19:15:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.9849"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:receiving",
+    "bizLocation": "urn:epc:id:sgln:0614143.00500.0",
+    "readPoint": "urn:epc:id:sgln:0614143.00500.0",
+    "sensorData": {
+      "temperature": 2.9,
+      "humidity": 47.66,
+      "gps": {
+        "lat": 28.587349,
+        "lng": 77.192585
+      },
+      "doorOpen": false,
+      "vibration": 0.038
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Delhi"
+    }
+  },
+  {
+    "eventID": "EVT-055",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T19:30:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.9890"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:transporting",
+    "bizLocation": "urn:epc:id:sgln:0614143.00500.0",
+    "readPoint": "urn:epc:id:sgln:0614143.00500.0",
+    "sensorData": {
+      "temperature": 33.57,
+      "humidity": 56.66,
+      "gps": {
+        "lat": 28.570323,
+        "lng": 77.19976
+      },
+      "doorOpen": true,
+      "vibration": 0.046
+    },
+    "_meta": {
+      "is_anomaly": true,
+      "anomaly_type": "temperature_spike",
+      "city": "Delhi"
+    }
+  },
+  {
+    "eventID": "EVT-056",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T19:45:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.1096"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:storing",
+    "bizLocation": "urn:epc:id:sgln:0614143.00500.0",
+    "readPoint": "urn:epc:id:sgln:0614143.00500.0",
+    "sensorData": {
+      "temperature": 6.52,
+      "humidity": 57.07,
+      "gps": {
+        "lat": 28.640459,
+        "lng": 77.197038
+      },
+      "doorOpen": true,
+      "vibration": 0.032
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Delhi"
+    }
+  },
+  {
+    "eventID": "EVT-057",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T20:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.4613"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:receiving",
+    "bizLocation": "urn:epc:id:sgln:0614143.00500.0",
+    "readPoint": "urn:epc:id:sgln:0614143.00500.0",
+    "sensorData": {
+      "temperature": 3.64,
+      "humidity": 49.71,
+      "gps": {
+        "lat": 28.637363,
+        "lng": 77.238987
+      },
+      "doorOpen": true,
+      "vibration": 0.023
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Delhi"
+    }
+  },
+  {
+    "eventID": "EVT-058",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T20:15:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.3704"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:receiving",
+    "bizLocation": "urn:epc:id:sgln:0614143.00500.0",
+    "readPoint": "urn:epc:id:sgln:0614143.00500.0",
+    "sensorData": {
+      "temperature": 7.88,
+      "humidity": 50.68,
+      "gps": {
+        "lat": 28.631814,
+        "lng": 77.199432
+      },
+      "doorOpen": true,
+      "vibration": 0.034
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Delhi"
+    }
+  },
+  {
+    "eventID": "EVT-059",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T20:30:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.8022"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:transporting",
+    "bizLocation": "urn:epc:id:sgln:0614143.00500.0",
+    "readPoint": "urn:epc:id:sgln:0614143.00500.0",
+    "sensorData": {
+      "temperature": 3.09,
+      "humidity": 45.2,
+      "gps": {
+        "lat": 28.6302,
+        "lng": 77.167395
+      },
+      "doorOpen": false,
+      "vibration": 0.018
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Delhi"
+    }
+  },
+  {
+    "eventID": "EVT-060",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T20:45:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.7211"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:transporting",
+    "bizLocation": "urn:epc:id:sgln:0614143.00500.0",
+    "readPoint": "urn:epc:id:sgln:0614143.00500.0",
+    "sensorData": {
+      "temperature": 3.51,
+      "humidity": 41.64,
+      "gps": {
+        "lat": 28.596585,
+        "lng": 77.235123
+      },
+      "doorOpen": false,
+      "vibration": 0.04
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Delhi"
+    }
+  },
+  {
+    "eventID": "EVT-061",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T21:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.4673"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:shipping",
+    "bizLocation": "urn:epc:id:sgln:0614144.00800.0",
+    "readPoint": "urn:epc:id:sgln:0614144.00800.0",
+    "sensorData": {
+      "temperature": 6.69,
+      "humidity": 53.04,
+      "gps": {
+        "lat": 18.475609,
+        "lng": 73.901892
+      },
+      "doorOpen": false,
+      "vibration": 0.048
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Pune"
+    }
+  },
+  {
+    "eventID": "EVT-062",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T21:15:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.3496"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:receiving",
+    "bizLocation": "urn:epc:id:sgln:0614144.00800.0",
+    "readPoint": "urn:epc:id:sgln:0614144.00800.0",
+    "sensorData": {
+      "temperature": 4.84,
+      "humidity": 42.29,
+      "gps": {
+        "lat": 18.490336,
+        "lng": 73.808738
+      },
+      "doorOpen": false,
+      "vibration": 0.029
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Pune"
+    }
+  },
+  {
+    "eventID": "EVT-063",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T21:30:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.2876"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:storing",
+    "bizLocation": "urn:epc:id:sgln:0614144.00800.0",
+    "readPoint": "urn:epc:id:sgln:0614144.00800.0",
+    "sensorData": {
+      "temperature": 2.65,
+      "humidity": 40.51,
+      "gps": {
+        "lat": 18.496024,
+        "lng": 73.84359
+      },
+      "doorOpen": false,
+      "vibration": 0.033
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Pune"
+    }
+  },
+  {
+    "eventID": "EVT-064",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T21:45:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.4249"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:loading",
+    "bizLocation": "urn:epc:id:sgln:0614144.00800.0",
+    "readPoint": "urn:epc:id:sgln:0614144.00800.0",
+    "sensorData": {
+      "temperature": 6.14,
+      "humidity": 52.54,
+      "gps": {
+        "lat": 18.561203,
+        "lng": 73.844231
+      },
+      "doorOpen": false,
+      "vibration": 0.038
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Pune"
+    }
+  },
+  {
+    "eventID": "EVT-065",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T22:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.2983"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:shipping",
+    "bizLocation": "urn:epc:id:sgln:0614144.00800.0",
+    "readPoint": "urn:epc:id:sgln:0614144.00800.0",
+    "sensorData": {
+      "temperature": 4.08,
+      "humidity": 48.57,
+      "gps": {
+        "lat": 18.500558,
+        "lng": 73.875126
+      },
+      "doorOpen": false,
+      "vibration": 0.013
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Pune"
+    }
+  },
+  {
+    "eventID": "EVT-066",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T22:15:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.7882"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:shipping",
+    "bizLocation": "urn:epc:id:sgln:0614144.00800.0",
+    "readPoint": "urn:epc:id:sgln:0614144.00800.0",
+    "sensorData": {
+      "temperature": 4.6,
+      "humidity": 47.24,
+      "gps": {
+        "lat": 18.535154,
+        "lng": 73.807965
+      },
+      "doorOpen": true,
+      "vibration": 0.038
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Pune"
+    }
+  },
+  {
+    "eventID": "EVT-067",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T22:30:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.5425"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:loading",
+    "bizLocation": "urn:epc:id:sgln:0614144.00800.0",
+    "readPoint": "urn:epc:id:sgln:0614144.00800.0",
+    "sensorData": {
+      "temperature": 6.65,
+      "humidity": 49.3,
+      "gps": {
+        "lat": 18.513949,
+        "lng": 73.88008
+      },
+      "doorOpen": false,
+      "vibration": 0.023
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Pune"
+    }
+  },
+  {
+    "eventID": "EVT-068",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T22:45:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.5569"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:receiving",
+    "bizLocation": "urn:epc:id:sgln:0614144.00800.0",
+    "readPoint": "urn:epc:id:sgln:0614144.00800.0",
+    "sensorData": {
+      "temperature": 6.5,
+      "humidity": 51.4,
+      "gps": {
+        "lat": 18.49495,
+        "lng": 73.900162
+      },
+      "doorOpen": true,
+      "vibration": 0.023
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Pune"
+    }
+  },
+  {
+    "eventID": "EVT-069",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T23:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.8988"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:storing",
+    "bizLocation": "urn:epc:id:sgln:0614144.00800.0",
+    "readPoint": "urn:epc:id:sgln:0614144.00800.0",
+    "sensorData": {
+      "temperature": 6.79,
+      "humidity": 46.81,
+      "gps": {
+        "lat": 18.519831,
+        "lng": 73.839201
+      },
+      "doorOpen": false,
+      "vibration": 0.032
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Pune"
+    }
+  },
+  {
+    "eventID": "EVT-070",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T23:15:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.4954"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:transporting",
+    "bizLocation": "urn:epc:id:sgln:UNKNOWN.99999.0",
+    "readPoint": "urn:epc:id:sgln:UNKNOWN.99999.0",
+    "sensorData": {
+      "temperature": 4.93,
+      "humidity": 55.16,
+      "gps": {
+        "lat": 18.522063,
+        "lng": 73.825806
+      },
+      "doorOpen": true,
+      "vibration": 0.036
+    },
+    "_meta": {
+      "is_anomaly": true,
+      "anomaly_type": "fake_partner",
+      "city": "Pune"
+    }
+  },
+  {
+    "eventID": "EVT-071",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T23:30:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.5820"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:transporting",
+    "bizLocation": "urn:epc:id:sgln:0614144.00800.0",
+    "readPoint": "urn:epc:id:sgln:0614144.00800.0",
+    "sensorData": {
+      "temperature": 6.15,
+      "humidity": 46.12,
+      "gps": {
+        "lat": 18.515217,
+        "lng": 73.808424
+      },
+      "doorOpen": false,
+      "vibration": 0.029
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Pune"
+    }
+  },
+  {
+    "eventID": "EVT-072",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-04T23:45:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.6419"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:transporting",
+    "bizLocation": "urn:epc:id:sgln:0614144.00800.0",
+    "readPoint": "urn:epc:id:sgln:0614144.00800.0",
+    "sensorData": {
+      "temperature": 3.63,
+      "humidity": 45.03,
+      "gps": {
+        "lat": 18.523492,
+        "lng": 73.84925
+      },
+      "doorOpen": false,
+      "vibration": 0.039
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Pune"
+    }
+  },
+  {
+    "eventID": "EVT-073",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T00:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.4033"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:receiving",
+    "bizLocation": "urn:epc:id:sgln:0614144.00800.0",
+    "readPoint": "urn:epc:id:sgln:0614144.00800.0",
+    "sensorData": {
+      "temperature": 6.43,
+      "humidity": 45.53,
+      "gps": {
+        "lat": 18.501955,
+        "lng": 73.880988
+      },
+      "doorOpen": false,
+      "vibration": 0.049
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Pune"
+    }
+  },
+  {
+    "eventID": "EVT-074",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T00:15:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.6912"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:storing",
+    "bizLocation": "urn:epc:id:sgln:0614144.00800.0",
+    "readPoint": "urn:epc:id:sgln:0614144.00800.0",
+    "sensorData": {
+      "temperature": 2.08,
+      "humidity": 50.68,
+      "gps": {
+        "lat": 18.553663,
+        "lng": 73.836325
+      },
+      "doorOpen": false,
+      "vibration": 0.012
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Pune"
+    }
+  },
+  {
+    "eventID": "EVT-075",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T00:30:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.3068"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:transporting",
+    "bizLocation": "urn:epc:id:sgln:0614144.00800.0",
+    "readPoint": "urn:epc:id:sgln:0614144.00800.0",
+    "sensorData": {
+      "temperature": 2.62,
+      "humidity": 40.25,
+      "gps": {
+        "lat": 18.475853,
+        "lng": 73.835914
+      },
+      "doorOpen": false,
+      "vibration": 0.029
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Pune"
+    }
+  },
+  {
+    "eventID": "EVT-076",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T00:45:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.1841"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:transporting",
+    "bizLocation": "urn:epc:id:sgln:0614144.00800.0",
+    "readPoint": "urn:epc:id:sgln:0614144.00800.0",
+    "sensorData": {
+      "temperature": 26.52,
+      "humidity": 41.31,
+      "gps": {
+        "lat": 18.514447,
+        "lng": 73.825136
+      },
+      "doorOpen": true,
+      "vibration": 0.013
+    },
+    "_meta": {
+      "is_anomaly": true,
+      "anomaly_type": "temperature_spike",
+      "city": "Pune"
+    }
+  },
+  {
+    "eventID": "EVT-077",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T01:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.2395"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:shipping",
+    "bizLocation": "urn:epc:id:sgln:0614144.00800.0",
+    "readPoint": "urn:epc:id:sgln:0614144.00800.0",
+    "sensorData": {
+      "temperature": 5.35,
+      "humidity": 48.32,
+      "gps": {
+        "lat": 18.551514,
+        "lng": 73.901613
+      },
+      "doorOpen": false,
+      "vibration": 0.041
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Pune"
+    }
+  },
+  {
+    "eventID": "EVT-078",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T01:15:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.5871"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:transporting",
+    "bizLocation": "urn:epc:id:sgln:0614144.00800.0",
+    "readPoint": "urn:epc:id:sgln:0614144.00800.0",
+    "sensorData": {
+      "temperature": 3.83,
+      "humidity": 52.42,
+      "gps": {
+        "lat": 18.508438,
+        "lng": 73.89755
+      },
+      "doorOpen": false,
+      "vibration": 0.048
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Pune"
+    }
+  },
+  {
+    "eventID": "EVT-079",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T01:30:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.2330"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:receiving",
+    "bizLocation": "urn:epc:id:sgln:0614144.00800.0",
+    "readPoint": "urn:epc:id:sgln:0614144.00800.0",
+    "sensorData": {
+      "temperature": 3.04,
+      "humidity": 41.5,
+      "gps": {
+        "lat": 18.491179,
+        "lng": 73.827803
+      },
+      "doorOpen": false,
+      "vibration": 0.026
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Pune"
+    }
+  },
+  {
+    "eventID": "EVT-080",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T01:45:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.1534"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:storing",
+    "bizLocation": "urn:epc:id:sgln:0614144.00800.0",
+    "readPoint": "urn:epc:id:sgln:0614144.00800.0",
+    "sensorData": {
+      "temperature": 6.24,
+      "humidity": 54.06,
+      "gps": {
+        "lat": 18.539337,
+        "lng": 73.853691
+      },
+      "doorOpen": true,
+      "vibration": 0.013
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Pune"
+    }
+  },
+  {
+    "eventID": "EVT-081",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T02:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.4241"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:shipping",
+    "bizLocation": "urn:epc:id:sgln:0614145.01200.0",
+    "readPoint": "urn:epc:id:sgln:0614145.01200.0",
+    "sensorData": {
+      "temperature": 5.27,
+      "humidity": 52.95,
+      "gps": {
+        "lat": 19.049342,
+        "lng": 72.854155
+      },
+      "doorOpen": false,
+      "vibration": 0.043
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Mumbai"
+    }
+  },
+  {
+    "eventID": "EVT-082",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T02:15:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.6039"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:loading",
+    "bizLocation": "urn:epc:id:sgln:UNKNOWN.99999.0",
+    "readPoint": "urn:epc:id:sgln:UNKNOWN.99999.0",
+    "sensorData": {
+      "temperature": 7.53,
+      "humidity": 48.78,
+      "gps": {
+        "lat": 19.033141,
+        "lng": 72.844292
+      },
+      "doorOpen": true,
+      "vibration": 0.038
+    },
+    "_meta": {
+      "is_anomaly": true,
+      "anomaly_type": "fake_partner",
+      "city": "Mumbai"
+    }
+  },
+  {
+    "eventID": "EVT-083",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T02:30:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.9090"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:shipping",
+    "bizLocation": "urn:epc:id:sgln:0614145.01200.0",
+    "readPoint": "urn:epc:id:sgln:0614145.01200.0",
+    "sensorData": {
+      "temperature": 5.59,
+      "humidity": 57.79,
+      "gps": {
+        "lat": 19.120268,
+        "lng": 72.877747
+      },
+      "doorOpen": false,
+      "vibration": 0.034
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Mumbai"
+    }
+  },
+  {
+    "eventID": "EVT-084",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T02:45:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.1339"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:storing",
+    "bizLocation": "urn:epc:id:sgln:0614145.01200.0",
+    "readPoint": "urn:epc:id:sgln:0614145.01200.0",
+    "sensorData": {
+      "temperature": 5.46,
+      "humidity": 55.26,
+      "gps": {
+        "lat": 19.028586,
+        "lng": 72.850592
+      },
+      "doorOpen": false,
+      "vibration": 0.029
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Mumbai"
+    }
+  },
+  {
+    "eventID": "EVT-085",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T03:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.3973"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:transporting",
+    "bizLocation": "urn:epc:id:sgln:0614145.01200.0",
+    "readPoint": "urn:epc:id:sgln:0614145.01200.0",
+    "sensorData": {
+      "temperature": 5.81,
+      "humidity": 49.83,
+      "gps": {
+        "lat": 19.091151,
+        "lng": 72.919307
+      },
+      "doorOpen": false,
+      "vibration": 0.029
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Mumbai"
+    }
+  },
+  {
+    "eventID": "EVT-086",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T03:15:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.2713"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:storing",
+    "bizLocation": "urn:epc:id:sgln:0614145.01200.0",
+    "readPoint": "urn:epc:id:sgln:0614145.01200.0",
+    "sensorData": {
+      "temperature": 4.47,
+      "humidity": 49.91,
+      "gps": {
+        "lat": 19.066835,
+        "lng": 72.859806
+      },
+      "doorOpen": true,
+      "vibration": 0.043
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Mumbai"
+    }
+  },
+  {
+    "eventID": "EVT-087",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T03:30:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.6153"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:storing",
+    "bizLocation": "urn:epc:id:sgln:UNKNOWN.99999.0",
+    "readPoint": "urn:epc:id:sgln:UNKNOWN.99999.0",
+    "sensorData": {
+      "temperature": 2.7,
+      "humidity": 55.45,
+      "gps": {
+        "lat": 19.08101,
+        "lng": 72.873183
+      },
+      "doorOpen": false,
+      "vibration": 0.036
+    },
+    "_meta": {
+      "is_anomaly": true,
+      "anomaly_type": "fake_partner",
+      "city": "Mumbai"
+    }
+  },
+  {
+    "eventID": "EVT-088",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T03:45:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.6927"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:transporting",
+    "bizLocation": "urn:epc:id:sgln:0614145.01200.0",
+    "readPoint": "urn:epc:id:sgln:0614145.01200.0",
+    "sensorData": {
+      "temperature": 5.75,
+      "humidity": 55.2,
+      "gps": {
+        "lat": 19.067325,
+        "lng": 72.846458
+      },
+      "doorOpen": false,
+      "vibration": 0.021
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Mumbai"
+    }
+  },
+  {
+    "eventID": "EVT-089",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T04:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.8941"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:shipping",
+    "bizLocation": "urn:epc:id:sgln:0614145.01200.0",
+    "readPoint": "urn:epc:id:sgln:0614145.01200.0",
+    "sensorData": {
+      "temperature": 7.84,
+      "humidity": 52.18,
+      "gps": {
+        "lat": 19.039101,
+        "lng": 72.856503
+      },
+      "doorOpen": false,
+      "vibration": 0.038
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Mumbai"
+    }
+  },
+  {
+    "eventID": "EVT-090",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T04:15:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.7684"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:receiving",
+    "bizLocation": "urn:epc:id:sgln:0614145.01200.0",
+    "readPoint": "urn:epc:id:sgln:0614145.01200.0",
+    "sensorData": {
+      "temperature": 7.95,
+      "humidity": 58.26,
+      "gps": {
+        "lat": 19.057075,
+        "lng": 72.829067
+      },
+      "doorOpen": true,
+      "vibration": 0.048
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Mumbai"
+    }
+  },
+  {
+    "eventID": "EVT-091",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T04:30:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.5781"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:storing",
+    "bizLocation": "urn:epc:id:sgln:0614145.01200.0",
+    "readPoint": "urn:epc:id:sgln:0614145.01200.0",
+    "sensorData": {
+      "temperature": 4.49,
+      "humidity": 49.65,
+      "gps": {
+        "lat": 19.090771,
+        "lng": 72.843097
+      },
+      "doorOpen": true,
+      "vibration": 0.02
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Mumbai"
+    }
+  },
+  {
+    "eventID": "EVT-092",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T04:45:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.9327"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:receiving",
+    "bizLocation": "urn:epc:id:sgln:0614145.01200.0",
+    "readPoint": "urn:epc:id:sgln:0614145.01200.0",
+    "sensorData": {
+      "temperature": 7.18,
+      "humidity": 45.52,
+      "gps": {
+        "lat": 19.081127,
+        "lng": 72.866059
+      },
+      "doorOpen": true,
+      "vibration": 0.024
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Mumbai"
+    }
+  },
+  {
+    "eventID": "EVT-093",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T05:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.1042"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:storing",
+    "bizLocation": "urn:epc:id:sgln:0614145.01200.0",
+    "readPoint": "urn:epc:id:sgln:0614145.01200.0",
+    "sensorData": {
+      "temperature": 7.02,
+      "humidity": 51.6,
+      "gps": {
+        "lat": 19.104772,
+        "lng": 72.854417
+      },
+      "doorOpen": true,
+      "vibration": 0.045
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Mumbai"
+    }
+  },
+  {
+    "eventID": "EVT-094",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T05:15:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.6446"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:loading",
+    "bizLocation": "urn:epc:id:sgln:0614145.01200.0",
+    "readPoint": "urn:epc:id:sgln:0614145.01200.0",
+    "sensorData": {
+      "temperature": 4.26,
+      "humidity": 58.66,
+      "gps": {
+        "lat": 19.070655,
+        "lng": 72.876134
+      },
+      "doorOpen": false,
+      "vibration": 0.049
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Mumbai"
+    }
+  },
+  {
+    "eventID": "EVT-095",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T05:30:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.7730"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:storing",
+    "bizLocation": "urn:epc:id:sgln:0614145.01200.0",
+    "readPoint": "urn:epc:id:sgln:0614145.01200.0",
+    "sensorData": {
+      "temperature": 6.47,
+      "humidity": 54.1,
+      "gps": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "doorOpen": true,
+      "vibration": 0.025
+    },
+    "_meta": {
+      "is_anomaly": true,
+      "anomaly_type": "location_jump",
+      "city": "Mumbai"
+    }
+  },
+  {
+    "eventID": "EVT-096",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T05:45:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.9229"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:storing",
+    "bizLocation": "urn:epc:id:sgln:0614145.01200.0",
+    "readPoint": "urn:epc:id:sgln:0614145.01200.0",
+    "sensorData": {
+      "temperature": 7.22,
+      "humidity": 57.48,
+      "gps": {
+        "lat": 19.075533,
+        "lng": 72.831402
+      },
+      "doorOpen": true,
+      "vibration": 0.014
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Mumbai"
+    }
+  },
+  {
+    "eventID": "EVT-097",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T06:00:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.3361"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:receiving",
+    "bizLocation": "urn:epc:id:sgln:0614145.01200.0",
+    "readPoint": "urn:epc:id:sgln:0614145.01200.0",
+    "sensorData": {
+      "temperature": 2.45,
+      "humidity": 55.63,
+      "gps": {
+        "lat": 19.117044,
+        "lng": 72.829235
+      },
+      "doorOpen": false,
+      "vibration": 0.024
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Mumbai"
+    }
+  },
+  {
+    "eventID": "EVT-098",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T06:15:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.6383"
+    ],
+    "action": "DELETE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:loading",
+    "bizLocation": "urn:epc:id:sgln:0614145.01200.0",
+    "readPoint": "urn:epc:id:sgln:0614145.01200.0",
+    "sensorData": {
+      "temperature": 4.28,
+      "humidity": 46.33,
+      "gps": {
+        "lat": 19.09527,
+        "lng": 72.892684
+      },
+      "doorOpen": true,
+      "vibration": 0.045
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Mumbai"
+    }
+  },
+  {
+    "eventID": "EVT-099",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T06:30:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.5708"
+    ],
+    "action": "OBSERVE",
+    "bizStep": "urn:epcglobal:cbv:bizstep:shipping",
+    "bizLocation": "urn:epc:id:sgln:0614145.01200.0",
+    "readPoint": "urn:epc:id:sgln:0614145.01200.0",
+    "sensorData": {
+      "temperature": 4.6,
+      "humidity": 41.97,
+      "gps": {
+        "lat": 19.02959,
+        "lng": 72.834542
+      },
+      "doorOpen": false,
+      "vibration": 0.028
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Mumbai"
+    }
+  },
+  {
+    "eventID": "EVT-100",
+    "eventType": "ObjectEvent",
+    "eventTime": "2026-06-05T06:45:00Z",
+    "eventTimeZoneOffset": "+05:30",
+    "epcList": [
+      "urn:epc:id:sgtin:0614141.107346.1753"
+    ],
+    "action": "ADD",
+    "bizStep": "urn:epcglobal:cbv:bizstep:shipping",
+    "bizLocation": "urn:epc:id:sgln:0614145.01200.0",
+    "readPoint": "urn:epc:id:sgln:0614145.01200.0",
+    "sensorData": {
+      "temperature": 3.76,
+      "humidity": 47.5,
+      "gps": {
+        "lat": 19.0954,
+        "lng": 72.918042
+      },
+      "doorOpen": false,
+      "vibration": 0.02
+    },
+    "_meta": {
+      "is_anomaly": false,
+      "anomaly_type": null,
+      "city": "Mumbai"
+    }
+  }
+]

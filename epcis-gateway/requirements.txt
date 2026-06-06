@@ -1,0 +1,24 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# EPCIS Attestation Edge Gateway — Python Dependencies
+# Patent Application No. 202611067289
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# Python version required: 3.10+
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Dashboard / visualization
+matplotlib>=3.7.0
+
+# Event processing and metrics tables
+pandas>=2.0.0
+
+# Numerical operations (used by matplotlib internally; pin for reproducibility)
+numpy>=1.24.0
+
+# ─────────────────────────────────────────────────────────────────────────────
+# All other dependencies (hashlib, json, hmac, math, uuid, datetime,
+# textwrap, random, subprocess, unittest) are Python standard library
+# modules and require no separate installation.
+# ─────────────────────────────────────────────────────────────────────────────
